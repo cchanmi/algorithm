@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		529A8B8C297D065A0064ECBC /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		529A8B99297D071D0064ECBC /* 1406.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1406.cpp; sourceTree = "<group>"; };
+		529A8B99297D071D0064ECBC /* 10866.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10866.cpp; sourceTree = "<group>"; };
 		529A8B9B297D07320064ECBC /* BubbbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbbleSort.cpp; sourceTree = "<group>"; };
 		529A8B9D297D07430064ECBC /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		529A8B9F297D074C0064ECBC /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		529A8B98297D07110064ECBC /* Practice */ = {
 			isa = PBXGroup;
 			children = (
-				529A8B99297D071D0064ECBC /* 1406.cpp */,
+				529A8B99297D071D0064ECBC /* 10866.cpp */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -265,6 +265,7 @@
 		529A8B94297D065A0064ECBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FQJCX687Q4;
 				ENABLE_HARDENED_RUNTIME = YES;

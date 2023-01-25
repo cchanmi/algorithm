@@ -22,7 +22,7 @@ int main() {
             result.pop();
             if ( oper == '+') {
                 result.push(firstNum + secondNum);
-            } else if (oper == '-') {
+            } else if (oper == '-') {   
                 result.push(firstNum - secondNum);
             } else if (oper == '*') {
                 result.push(firstNum*secondNum);

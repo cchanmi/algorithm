@@ -26,11 +26,10 @@ func backTracking(_ start: Int, _ depth: Int) {
         if !visited[i] {
             visited[i] = true
             sum += number[i]
-            array.append(number[i])
+            
             backTracking(i, depth+1)
             visited[i] = false
             sum -= number[i]
-            array.remove(at: i)
         }
     }
 }

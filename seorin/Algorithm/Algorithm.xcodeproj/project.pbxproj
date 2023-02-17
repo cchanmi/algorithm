@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52227DF5299F5E4600B8C19A /* 15988.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52227DF4299F5E4600B8C19A /* 15988.cpp */; };
 		52227DF7299F629C00B8C19A /* 1149.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52227DF6299F629C00B8C19A /* 1149.cpp */; };
+		52227DF9299F660C00B8C19A /* 1309.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52227DF8299F660C00B8C19A /* 1309.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		5209FE51298967F400EA3F3C /* 9095.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9095.cpp; sourceTree = "<group>"; };
 		52227DF4299F5E4600B8C19A /* 15988.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15988.cpp; sourceTree = "<group>"; };
 		52227DF6299F629C00B8C19A /* 1149.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1149.cpp; sourceTree = "<group>"; };
+		52227DF8299F660C00B8C19A /* 1309.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1309.cpp; sourceTree = "<group>"; };
 		52423A48298D2EA300B32236 /* 16194.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 16194.cpp; sourceTree = "<group>"; };
 		524C55ED2984390500FC68A3 /* 10808.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10808.cpp; sourceTree = "<group>"; };
 		524C55EF29858FAD00FC68A3 /* 10820.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10820.cpp; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				529E01922995DED200CF38D3 /* 1699.cpp */,
 				52227DF4299F5E4600B8C19A /* 15988.cpp */,
 				52227DF6299F629C00B8C19A /* 1149.cpp */,
+				52227DF8299F660C00B8C19A /* 1309.cpp */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52227DF9299F660C00B8C19A /* 1309.cpp in Sources */,
 				52227DF7299F629C00B8C19A /* 1149.cpp in Sources */,
 				52227DF5299F5E4600B8C19A /* 15988.cpp in Sources */,
 			);

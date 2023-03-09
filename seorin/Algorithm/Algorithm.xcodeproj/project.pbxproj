@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52A50D9D29B4BBC4009F0E05 /* 10972.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52A50D9C29B4BBC4009F0E05 /* 10972.cpp */; };
+		5220607C29B881AD00988087 /* 10819.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5220607B29B881AD00988087 /* 10819.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,8 @@
 		520913DF29A9C8E0002FECDD /* 1476.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1476.cpp; sourceTree = "<group>"; };
 		5209FE4F298962F300EA3F3C /* 11727.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11727.cpp; sourceTree = "<group>"; };
 		5209FE51298967F400EA3F3C /* 9095.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9095.cpp; sourceTree = "<group>"; };
+		5220607929B87D8200988087 /* 10974.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10974.cpp; sourceTree = "<group>"; };
+		5220607B29B881AD00988087 /* 10819.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10819.cpp; sourceTree = "<group>"; };
 		52227DF4299F5E4600B8C19A /* 15988.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15988.cpp; sourceTree = "<group>"; };
 		52227DF6299F629C00B8C19A /* 1149.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1149.cpp; sourceTree = "<group>"; };
 		52227DF8299F660C00B8C19A /* 1309.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1309.cpp; sourceTree = "<group>"; };
@@ -186,6 +188,8 @@
 				52A50D9729B4A0C6009F0E05 /* 15666.cpp */,
 				52A50D9A29B4B8F3009F0E05 /* 10973.cpp */,
 				52A50D9C29B4BBC4009F0E05 /* 10972.cpp */,
+				5220607929B87D8200988087 /* 10974.cpp */,
+				5220607B29B881AD00988087 /* 10819.cpp */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -247,7 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A50D9D29B4BBC4009F0E05 /* 10972.cpp in Sources */,
+				5220607C29B881AD00988087 /* 10819.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

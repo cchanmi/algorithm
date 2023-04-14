@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52715F3329E284F80001D961 /* 13913.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52715F3229E284F80001D961 /* 13913.cpp */; };
-		52CB3D9129E536040074C3A3 /* 1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52CB3D9029E536040074C3A3 /* 1.cpp */; };
+		529B349729E93AE800D1F408 /* 14226.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529B349629E93AE800D1F408 /* 14226.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +66,7 @@
 		529A8BA4297D320F0064ECBC /* 10799.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10799.cpp; sourceTree = "<group>"; };
 		529A8BA7298020700064ECBC /* 1935.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1935.cpp; sourceTree = "<group>"; };
 		529A8BA92980E8230064ECBC /* 17298.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17298.cpp; sourceTree = "<group>"; };
+		529B349629E93AE800D1F408 /* 14226.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14226.cpp; sourceTree = "<group>"; };
 		529E01902994D6DC00CF38D3 /* 1912.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1912.cpp; sourceTree = "<group>"; };
 		529E01922995DED200CF38D3 /* 1699.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1699.cpp; sourceTree = "<group>"; };
 		529E2491298255A40093140C /* 17299.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 17299.cpp; sourceTree = "<group>"; };
@@ -221,6 +221,7 @@
 				5273925429DFECBD009ED849 /* 1697.cpp */,
 				52715F3229E284F80001D961 /* 13913.cpp */,
 				52CB3D9029E536040074C3A3 /* 1.cpp */,
+				529B349629E93AE800D1F408 /* 14226.cpp */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -282,8 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52715F3329E284F80001D961 /* 13913.cpp in Sources */,
-				52CB3D9129E536040074C3A3 /* 1.cpp in Sources */,
+				529B349729E93AE800D1F408 /* 14226.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

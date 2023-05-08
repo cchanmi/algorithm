@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		52192F742A07C8740073BAA7 /* 2219.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52192F702A069B680073BAA7 /* 2219.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		529A8B8A297D065A0064ECBC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -311,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52192F742A07C8740073BAA7 /* 2219.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

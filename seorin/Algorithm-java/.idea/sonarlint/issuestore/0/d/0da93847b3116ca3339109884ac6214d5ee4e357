@@ -1,0 +1,8 @@
+
+@	java:S106	"+Replace this use of System.out by a logger.(ú…‡ì
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ï±ûÿÿÿÿ
+@
+java:S1659"%Declare "pickEnd" on a separate line.(Ã‹Ùøÿÿÿÿÿ
+@
+java:S1659"%Declare "pickCap" on a separate line.(ÊôÍ•ÿÿÿÿÿ

@@ -1,0 +1,5 @@
+
+t
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(£éĞ‚
+@	java:S106"+Replace this use of System.out by a logger.(Íìú½
+?	java:S1063"+Replace this use of System.out by a logger.(¬Åãl

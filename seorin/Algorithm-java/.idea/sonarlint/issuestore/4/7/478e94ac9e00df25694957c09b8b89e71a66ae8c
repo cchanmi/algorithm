@@ -1,0 +1,6 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(Æ˝·Î˚ˇˇˇˇ8…≤‡õ÷1
+B
+java:S1481"&Remove this unused "c" local variable.(Ì„™>8 ≤‡õ÷1
+?
+java:S1659#""Declare "sumY" on a separate line.( Ò≈¡8–≤‡õ÷1

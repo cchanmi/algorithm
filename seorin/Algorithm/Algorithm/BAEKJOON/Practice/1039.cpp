@@ -7,7 +7,7 @@ int  n, k;
 int num[7];
 int idx;
 int result;
-int visited[MAX][10];
+set<pair<int, int>> visited;
 
 
 void input() {
@@ -19,7 +19,6 @@ void input() {
         num[idx] = n%10;
         n /= 10;
     }
-    memset(visited, 0, sizeof(visited));
 }
 
 int getNum() {
@@ -38,8 +37,8 @@ int bfs(int k) {
         for (int i=idx; i>=1; i--) {
             for (int j=i-1; j>=0; j--) {
                 swap(num[i], num[j]);
-                if (!visited[getNum()][k]) {
-                    visited[getNum()][k] = 1;
+                if (visited.find(make_pair(getNum(), k)) == visited.end()) {
+                    visited.insert(make_pair(getNum(), k));
                     result = max(result, bfs(k-1));
                 }
                 swap(num[i], num[j]);

@@ -1,0 +1,13 @@
+
+g
+java:S1104V"QMake value a static final constant or non-public and provide accessors if needed.(çªÆà
+h
+java:S1104W"RMake parent a static final constant or non-public and provide accessors if needed.(ÈªÄÃ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(•™ë
+6	java:S131""Add a default case to this switch.(ÔùèJ
+@	java:S1065"+Replace this use of System.out by a logger.(„ÿÏ‘
+@	java:S106B"+Replace this use of System.out by a logger.(ˆ…
+E	java:S106D"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+Ü
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 65 to 64, Complexity from 16 to 14, Nesting Level from 3 to 2, Number of Variables from 27 to 6.(•™ë

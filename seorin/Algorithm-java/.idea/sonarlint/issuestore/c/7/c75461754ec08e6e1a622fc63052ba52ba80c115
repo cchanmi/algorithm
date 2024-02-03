@@ -1,0 +1,13 @@
+
+I
+java:S1197	",Move the array designators [][] to the type.(÷ œ8¹Ï£¡Ö1
+G
+java:S1197"*Move the array designators [] to the type.(‹ ÷”8¶Ù»¡Ö1
+L	java:S106"+Replace this use of System.out by a logger.(ŞªìÈÿÿÿÿÿ8„®•¡Ö1
+G	java:S106"+Replace this use of System.out by a logger.(‘ÙëÚ8†®•¡Ö1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8´ı»¡Ö1
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18µı»¡Ö1
+I
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8¶ı»¡Ö1

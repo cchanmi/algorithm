@@ -1,4 +1,4 @@
-package org.naver_labs.pro1;
+package org.nl.pro1;
 import java.util.Stack;
 
 class Solution {

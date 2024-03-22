@@ -1,4 +1,4 @@
-package org.naver_labs.pro3;
+package org.nl.pro3;
 
 import java.util.LinkedList;
 import java.util.Queue;

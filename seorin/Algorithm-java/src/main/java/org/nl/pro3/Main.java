@@ -1,4 +1,4 @@
-package org.naver_labs.pro4;
+package org.nl.pro3;
 
 public class Main {
 
@@ -8,11 +8,11 @@ public class Main {
 		 * input
 		 *
 		 */
-		String s = "xyyyyxxxxxx";
-		int n = 2;
-
-		int solution1 = solution.solution(s, n);
-
+		int a = 3;
+		int b = 5;
+		int c = 7;
+		int d = 1;
+		int solution1 = solution.solution(a, b, c, d);
 		System.out.println("solution1 = " + solution1);
 	}
 

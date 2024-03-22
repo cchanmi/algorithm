@@ -1,4 +1,4 @@
-package org.naver_labs.pro2;
+package org.nl.pro2;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.naver_labs.pro4;
+package org.nl.pro4;
 
 import java.util.Arrays;
 

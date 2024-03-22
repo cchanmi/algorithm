@@ -1,4 +1,4 @@
-package org.naver_labs.pro1;
+package org.nl.pro1;
 
 public class Main {
 

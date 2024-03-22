@@ -148,10 +148,11 @@ iOSInjectionProject/
 .idea/**/dictionaries
 .idea/**/shelf
 
+*/.idea
 # AWS User-specific
 .idea/**/aws.xml
 
-.idea
+**/.idea
 # Generated files
 .idea/**/contentModel.xml
 
@@ -177,7 +178,7 @@ iOSInjectionProject/
 # .idea/jarRepositories.xml
 # .idea/modules.xml
 # .idea/*.iml
-# .idea/modules
+ .idea/modules
 # *.iml
 # *.ipr
 
@@ -278,7 +279,9 @@ hs_err_pid*
 replay_pid*
 
 ### Gradle ###
+**/.gradle
 .gradle
+.gradle/**
 **/build/
 !src/**/build/
 

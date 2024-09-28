@@ -1,0 +1,38 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/150365
+# 미로 탈출 명령어
+
+def solution(n, m, x, y, r, c, k):
+    # 맨해튼 거리
+    def reachable(y, x, now):
+        distance = abs(y-r) + abs(x-c)
+        # 남은 거리가 맨해튼 거리보다 크거나 같아야 함. 안 그러면 도달할 수 없는 거리
+        # 남은 거리 - 맨해튼 거리가 짝수여야 함. 홀수일 경우는 도달할 수 없기 때문
+        if now >= distance and (now-distance) % 2 == 0:
+            return True
+        return False
+    
+    # 알파벳, 시작y, 시작x, 남은 거리
+    stack = [("", x, y, k)]
+    
+    while stack:
+        alpha, nowY, nowX, nowDistance = stack.pop()
+        
+        # 모두 돌았을 경우, 도착 위치라면
+        if nowDistance == 0:
+            if nowY == r and nowX == c:
+                return alpha
+            continue
+        
+        # d, l, r, u 순으로 돌아야 하는데
+        # d를 가장 마지막에 넣어 주어야 바로 탐색 가능하기 때문에 뒤집어서 넣음
+        for (dy, dx, nowAlpha) in [(-1, 0, "u"), (0, 1, "r"), (0, -1, "l"), (1, 0, "d")]:
+            ny = dy+nowY
+            nx = dx+nowX
+            na = alpha+nowAlpha
+            
+            # 범위 안에 있고
+            if 1 <= ny <= n and 1 <= nx <= m:
+                # 남은 범위 내로 도착할 수 있는 경로일 때
+                if reachable(ny, nx, nowDistance-1):
+                    stack.append((na, ny, nx, nowDistance-1))
+    

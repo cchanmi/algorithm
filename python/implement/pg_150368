@@ -1,0 +1,45 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/150368
+# 이모티콘 할인행사
+
+def solution(users, emoticons):
+    # 소수점으로 만드는 방법
+    ratio = [40, 30, 20, 10]
+    ratioArray = []
+    result = [0, 0]
+    
+    def dfs(depth, array):
+        if depth == len(array):
+            ratioArray.append(array[:])
+            return
+        else:
+            for i in ratio:
+                array[depth] += i
+                dfs(depth+1, array)
+                array[depth] -= i
+    
+    dfs(0, [0] * len(emoticons))
+    
+    for i in range(len(ratioArray)):
+        plus = 0
+        priceArray = [0] * len(users)
+        
+        for j in range(len(emoticons)):
+            for k in range(len(users)):
+                # 할인율 만족하는지 확인하기
+                # 할인율 적용했을 때의 array
+                if users[k][0] <= ratioArray[i][j]:
+                    priceArray[k] += emoticons[j] * (100-ratioArray[i][j]) / 100
+        
+        # 플러스에 가입할 수 있는 유저라면
+        for user in range(len(users)):
+            if priceArray[user] >= users[user][1]:
+                plus += 1
+                priceArray[user] = 0
+        
+        if plus > result[0]:
+            result = [plus, sum(priceArray)]
+        elif plus == result[0]:
+            if sum(priceArray) >= result[1]:
+                result = [plus, sum(priceArray)]
+                
+    return result

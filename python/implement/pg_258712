@@ -1,0 +1,52 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/258712
+# 가장 많이 받은 선물
+
+def solution(friends, gifts):
+    
+    dic = {}
+    presentDic = {}
+    
+    for friend in friends:
+        dic[friend] = {}
+        presentDic[friend] = 0
+    
+    for gift in gifts:
+        splitGift = gift.split()
+        
+        a = splitGift[0]
+        b = splitGift[1]
+        
+        if b in dic[a]:
+            dic[a][b] += 1
+        else:
+            dic[a][b] = 1
+        
+        presentDic[a] += 1
+        presentDic[b] -= 1
+    
+    result = [0] * len(friends)
+    for i in range(len(friends)):
+        for j in range(i+1, len(friends)):
+            a = friends[i]
+            b = friends[j]
+            first = 0
+            second = 0
+            
+            if b in dic[a]:
+                first += dic[a][b]
+            
+            if a in dic[b]:
+                second += dic[b][a]
+            
+            if first > second:
+                result[i] += 1
+            elif first < second:
+                result[j] += 1
+            elif first == second:
+                if presentDic[a] > presentDic[b]:
+                    result[i] += 1
+                elif presentDic[a] < presentDic[b]:
+                    result[j] += 1     
+            
+    answer = max(result)
+    return answer

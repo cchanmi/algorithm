@@ -1,0 +1,37 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/64065
+# 튜플
+
+def solution(s):
+    numberArray = []
+    number = []
+    index = 1
+    
+    while len(s)-1 > index:
+        temp = s[index]
+        
+        if temp == "}":
+            numberArray.append(number)
+            number = []
+        # 숫자가 연속으로 오는 경우를 체크하는 방법
+        elif str.isdigit(temp):
+            # 숫자일 때
+            numbers = ""
+            while str.isdigit(s[index]):
+                numbers += s[index]
+                index += 1
+            number.append(int(numbers))
+            continue
+        
+        index += 1
+    
+    numberArray.sort(key=len)
+    visited = {}
+    answer = []
+    
+    for number in numberArray:
+        for i in number:
+            if i not in visited:
+                answer.append(i)
+                visited[i] = True
+        
+    return answer

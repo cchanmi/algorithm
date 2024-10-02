@@ -1,0 +1,48 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/118666
+# 성격 유형 검사하기
+
+def solution(survey, choices):
+    resultDic = {
+        "R": 0,
+        "T": 0,
+        "C": 0,
+        "F": 0,
+        "J": 0,
+        "M": 0,
+        "A": 0,
+        "N": 0
+    }
+    
+    result = ""
+    
+    for i in range(len(choices)):
+        if choices[i] == 4:
+            continue
+        
+        # "AN"이면 "A", "N" 나눠서 생각
+        a = survey[i][0]
+        b = survey[i][1]
+        
+        # 4보다 작은 값이면 a에 값 +
+        if choices[i] < 4:
+            number = 4-choices[i]
+            resultDic[a] += number
+        # 4를 넘는 값이면 b가 +
+        elif choices[i] > 4:
+            number = choices[i]-4
+            resultDic[b] += number
+    
+    def returnResult(a, b):
+        result = ""
+        if resultDic[a] == resultDic[b]:
+            result += min(a, b)
+        else:
+            result += a if resultDic[a] > resultDic[b] else b
+        return result
+    
+    result += returnResult("R", "T")
+    result += returnResult("C", "F")
+    result += returnResult("J", "M")
+    result += returnResult("A", "N")
+            
+    return result

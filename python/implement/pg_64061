@@ -1,0 +1,35 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/64061
+# 크레인 인형뽑기 게임
+
+def solution(board, moves):
+    # 예외처리 : 1. 인형이 없어서 아무일도 일어나지 않을 경우
+    # 2. stack에 값이 있는지 확인
+    # 5시 15분
+    # 5시 38분
+    
+    stack = []
+    result = 0
+    
+    def selected(start, board):
+        pick = 0
+        for i in range(len(board)):
+            if board[i][start] != 0:
+                pick = board[i][start]
+                board[i][start] = 0
+                return pick
+        # 1. 인형이 없어서 아무일도 일어나지 않을 경우
+        return None
+    
+    for move in moves:
+        start = move-1
+        pick = selected(start, board[:])
+        
+        if pick is not None:
+            # 2. stack에 값이 있는지 확인
+            if stack and stack[-1] == pick:
+                stack.pop()
+                result += 2
+            else:
+                stack.append(pick)
+    
+    return result
